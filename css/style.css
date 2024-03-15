@@ -1,0 +1,4 @@
+.gradient-overlay {
+    background: linear-gradient(to bottom right, #FFCF23, #FFE27B);
+    opacity: 0.6; /* Adjust the opacity as needed */
+}
