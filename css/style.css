@@ -2,3 +2,6 @@
     background: linear-gradient(to bottom right, #FFCF23, #FFE27B);
     opacity: 0.6; /* Adjust the opacity as needed */
 }
+.carousel-indicators .active {
+    transform: scale(1.5); /* Adjust the scale value as needed */
+}
