@@ -5,3 +5,58 @@
 .carousel-indicators .active {
     transform: scale(1.5); /* Adjust the scale value as needed */
 }
+.gradient-icon {
+    background: linear-gradient(to bottom right, #EEE9D7, #FFCF23);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+.brand-logo{
+    font-family: 'Kulim Park';
+    font-weight: bolder;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+.nav-link{
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: medium;
+    color: black;
+    
+    
+}
+.nav-link:hover{
+    background-color: #cbc5c5;
+    color: rgb(0, 0, 0);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05); 
+    z-index: 10;
+
+}
+.inter{
+    font-family: 'Inter';
+}
+.heading{
+    font-size: 3rem;
+}
+.bg-yellow{
+    background-color: #FFCF23;
+}
+.bg-black{
+    background-color: black;
+}
+.bold{
+    font-weight: 900;
+}
+.text-black{
+    color: black;
+}
+
+@media (min-width: 768px) {
+    .carousel-inner {
+      display: flex;
+    }
+    .carousel-item {
+      margin-right: 0;
+      flex: 0 0 33.333333%;
+      display: block;
+    }
+  }

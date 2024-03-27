@@ -6,14 +6,21 @@
     <title>double c&b</title>
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
+
 </head>
 <body>
     <header class="container-fluid ">
-        <nav class="navbar navbar-expand-lg navbar-light bg-white fixed-top mb-5 navbar-custom">
+        <nav class="navbar navbar-expand-lg bg-white fixed-top mb-5">
             <div class="container-fluid">
                 <!-- brand logo -->
-                <a class="navbar-brand me-auto" href="#">
+                <a class="navbar-brand me-auto brand-logo text-dark" href="#">
                     Double C & B
                 </a>
                 <!-- toggler -->
@@ -24,10 +31,10 @@
                         aria-controls="navbarSupportedContent" 
                         aria-expanded="false" 
                         aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon "></span>
+                        <span class="toggler-icon "><img src="images/button_menu.svg" alt="Search Icon" width="24" height="24"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <ul class="navbar-nav mx-auto mb-2 mb-lg-0 ">
                             <li class="nav-item active">
                                 <a class="nav-link" aria-current="page" href="#">Recipes</a>
                             </li>
@@ -40,9 +47,12 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="#">Contact</a>
                             </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">How this diet work?</a>
+                            </li>
                         </ul>
                     <div>
-                        <a class="btn btn-dark px-2 px-md-3 px-lg-4 rounded-pill" href="#">Login</a>
+                        <a class="btn btn-dark px-2 px-md-3 px-lg-4 rounded-pill fs-6  shadow login inter" href="#">Login</a>
                     </div>
                 </div>
             </div>
@@ -51,17 +61,17 @@
         <div class="container-fluid  p-5">
             <div class="row mt-5 ">
                 <div class="col-lg-6 my-auto text-lg-start  text-center  ">
-                    <h1 class="h1 fw-bolder ">Double Cheese <br>
+                    <h1 class="inter fw-bolder heading">Double Cheese <br>
                         and Bacon
                     </h1>
-                    <p class="fs-4">
+                    <p class="fs-4 inter">
                         Find the best keto recipes with their nutritional values and more.
                     </p>
-                    <div class="d-flex flex-column flex-md-row align-items-center ">
-                            <button class="btn btn-warning rounded-pill mb-3 mb-md-0 me-md-2">
+                    <div class="d-flex flex-column flex-lg-row align-items-center">
+                            <button class="btn btn-warning rounded-pill mb-3 mb-md-0 me-md-2 inter bg-yellow fs-6 fw-bold px-5 ">
                                 Recipes
                             </button>
-                            <p class="fs-6 my-auto">
+                            <p class="fs-6 my-auto inter">
                                 400+ delicious and amazing recipes for your keto diet!
                             </p>
                     </div>
@@ -73,8 +83,9 @@
         </div>
     </header>
     <div class="container-fluid bg-light mb-0 ">
-        <div class="row mx-5 py-5 text-center text-sm-start">
+        <div class="row mx-5 py-5 text-center text-sm-start inter">
             <div class="col-md-4">
+                <h6 class="fw-bold "><i class="bi bi-circle-fill gradient-icon"></i> Nutritional Value</h6>
                 <p>
                     Double C&B will provide you the nutritional value of a recipe. 
                     It describes the amount of carbohydrates, fats, proteins and energy 
@@ -82,12 +93,14 @@
                 </p>
             </div>
             <div class="col-md-4">
+                <h6 class="fw-bold "><i class="bi bi-circle-fill gradient-icon"></i> Chat With Expert</h6>
                 <p>
                     Chat with our experts through our live chat or WhatsApp. 
                     Ask about our diet program, how it works and how to get it!
                 </p>
             </div>
             <div class="col-md-4">
+                <h6 class="fw-bold"><i class="bi bi-circle-fill gradient-icon"></i> Reciepts</h6>
                 <p>
                     400+ recipes with their nutritional values. 
                     Every week you will find new recipes to add to your diet. 
@@ -97,15 +110,15 @@
         </div>
 
     </div>
-    <div class="container-fluid bg-dark text-white mt-0">
+    <div class="container-fluid bg-black text-white mt-0">
         <div class="row">
             <div class="col-lg-6 py-5 text-center ">
                 <img src="images/img (1).png" alt="" class=" img-fluid px-5 w-100 ">
             </div>
             <div class="col-lg-6 my-auto px-5">
                 <div class="row">
-                    <div class="col-md-6 col-lg-12 text-center text-md-start mb-md-0 mb-4">
-                        <h3>Double C&B Program: How this Work?</h3>
+                    <div class="col-md-6 col-lg-12 text-center text-md-start mb-md-0 mb-4 inter">
+                        <h3 class="bold">Double C&B Program: How this Work?</h3>
                         <p>
                             Our principal goal is to focus in the mental health. Working on us inside, 
                             set our goals and write down the reasons of why are we doing this will help 
@@ -124,127 +137,79 @@
             </div>
         </div>
     </div>
-    
-   <!-- Carousel wrapper -->
-   <div id="carouselMultiItemExample" class="carousel slide" data-mdb-ride="carousel">
-    <!-- Indicators -->
-    <ol class="carousel-indicators">
-        <li data-mdb-target="#carouselMultiItemExample" data-mdb-slide-to="0" class="active"></li>
-        <li data-mdb-target="#carouselMultiItemExample" data-mdb-slide-to="1"></li>
-        <li data-mdb-target="#carouselMultiItemExample" data-mdb-slide-to="2"></li>
-    </ol>
 
-    <!-- Inner -->
-    <div class="carousel-inner py-4 text-center ">
-        <!-- Single item -->
-        <div class="carousel-item active">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image1.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “The reason why I wanted to do this program was to work on my mind first and then on my body, and I did
-                            it! They really helped me to understand me inside...”
-                        </p>
-                    </div>
 
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image2.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “I was lost and tried lots of diets but when I started to follow the Double C&B program I realized about
-                            so many things that I didn't pay attention to before and I’m so glad I found them!”
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image3.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “This program talks about how to communicate with yourself, and how important our mental health is. Once
-                            we work with this, we will see the results in everything.”
-                        </p>
-                    </div>
+    <div id="carouselCard" class="carousel slide" data-bs-ride="true" >
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselCard" data-bs-slide-to="0" aria-current="true" aria-label="Slide 1" class="active "></button>
+            <button type="button" data-bs-target="#carouselCard" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselCard" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselCard" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="card p-3 m-2">
+                    <p class="text-muted">
+                        “The reason why I wanted to do this program was to work on my mind first and then on my body, and I did
+                        it! They really helped me to understand me inside...”
+                    </p>
+                    <img class="rounded-circle shadow-1-strong mb-4" src="images/Image1.png" alt="avatar" width="5%" height="5%"/>
                 </div>
             </div>
-        </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image1.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “The reason why I wanted to do this program was to work on my mind first and then on my body, and I did
-                            it! They really helped me to understand me inside...”
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image2.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “I was lost and tried lots of diets but when I started to follow the Double C&B program I realized about
-                            so many things that I didn't pay attention to before and I’m so glad I found them!”
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image3.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “This program talks about how to communicate with yourself, and how important our mental health is. Once
-                            we work with this, we will see the results in everything.”
-                        </p>
-                    </div>
+            <div class="carousel-item">
+                <div class="card p-3 m-2">
+                    <p class="text-muted">
+                        “I was lost and tried lots of diets but when I started to follow the Double C&B program I realized about
+                        so many things that I didn't pay attention to before and I’m so glad I found them!”
+                    </p>
+                    <img class="rounded-circle shadow-1-strong mb-4" src="images/Image2.png" alt="avatar" width="5%" height="5%"/>
                 </div>
             </div>
-        </div>
-
-        <!-- Single item -->
-        <div class="carousel-item">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-4">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image1.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            <i class="pe-2"></i>
-                            “The reason why I wanted to do this program was to work on my mind first and then on my body, and I did
-                            it! They really helped me to understand me inside...”
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image2.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “I was lost and tried lots of diets but when I started to follow the Double C&B program I realized about
-                            so many things that I didn't pay attention to before and I’m so glad I found them!”
-                        </p>
-                    </div>
-
-                    <div class="col-lg-4 d-none d-lg-block">
-                        <img class="rounded-circle shadow-1-strong mb-4" src="images/Image3.png" alt="avatar" style="width: 150px;" />
-                        <p class="text-muted">
-                            “This program talks about how to communicate with yourself, and how important our mental health is. Once
-                            we work with this, we will see the results in everything.”
-                        </p>
-                    </div>
+            <div class="carousel-item">
+                <div class="card p-3 m-2">
+                    <p class="text-muted">
+                        “This program talks about how to communicate with yourself, and how important our mental health is. Once
+                        we work with this, we will see the results in everything.”
+                    </p>
+                    <img class="rounded-circle shadow-1-strong mb-4" src="images/Image3.png" alt="avatar" width="5%" height="5%"/>
                 </div>
-            </div>
+            </div> 
+            <div class="carousel-item">
+                <div class="card p-3 m-2">
+                    <p class="text-muted">
+                        “aaaanknxal nsakskaosnax nkasnks lkasnasansasa njsasasak nknasja  anjulasaos kje wlklas thw laja sijq.msowenwmewia kjwjeem.
+                        sniweb njkjwew kajsus. iwie,iddj msdos.”
+                    </p>
+                    <img class="rounded-circle shadow-1-strong mb-4" src="images/img (1).png" alt="avatar" width="5%" height="5%"/>
+                </div>
+            </div>    
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselCard" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselCard" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
     </div>
-</div>
 
-<!-- Carousel wrapper -->
+
+    
+   
     <div class="bg-image d-flex justify-content-center align-items-center position-relative"
     style="background-image: url('images/img1.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center; height: 80vh;">
         <div class="gradient-overlay position-absolute top-0 start-0 w-100 h-100"></div>
-        <div class="text-dark text-center position-absolute top-50 start-50 translate-middle">
-            <h1 class="h1">
-                WORK ON YOURSELF AND BE <br> YOUR BEST VERSION
+        <div class="text-black text-center position-absolute top-50 start-50 translate-middle">
+            <h6>its time to</h6>
+            <h1 class="fs-1 ">
+                WORK ON YOURSELF AND BE YOUR BEST VERSION
             </h1>
         </div>
     </div>
 
     
-    <footer class="container-fluid justify-content-around py-5 bg-dark text-white">
+    <footer class="container-fluid justify-content-around py-5 bg-black  text-white">
         <div class="row m-5 text-center   text-sm-start ">
             <div class="col-lg-2">
                 <h5>Double C & B</h5>
@@ -296,7 +261,7 @@
                     </div>
                     <div class="col-md-3">
                         <h5>Subscribe</h5>
-                        <input type="email" placeholder="email">
+                        <input type="email" placeholder="email" class="rounded-pill p-2">
                     </div>
                 </div>
             </div>
